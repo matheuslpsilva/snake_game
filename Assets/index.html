@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobra</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark">
+            <div class="container">
+                <span class="navbar-brand fw-bold fs-4">Jogo da Cobra🤨</span>
+                <span class="navbar-text" id="navbar-recorde">🌟Recorde: 0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+
+                <div class="titulo-bloco mb-4">
+                    <h1 class="display-2 fw-bold titulo-jogo">Cobra🤨</h1>
+                    <p class="lead subtitulo">use as setas do teclado para guiar a cobra.</p>
+                </div> 
+
+                <div class="card card-recorde mb-4">
+                    <div class="card-body py-3">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <span class="label-card">Melhor pontuação🤨</span>
+                                <div class="valor-recorde" id="recorde-display">0</div>
+                            </div>
+                            <div class="col-auto">
+                                <span class="icone-trofeu">🏆</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <p class="label-secao mb-2">dificuldade</p>
+                    <div class="btn-group w-100" role="group">
+                    <input type="radio" class="btn-check" name="dificuldade" id="facil" value="200">
+                    <label class="btn btn-outline-dif" for="facil">Facil</label>
+
+                    <input type="radio" class="btn-check" name="dificuldade" id="media" value="130">
+                    <label class="btn btn-outline-dif" for="facil">Media</label>
+
+                    <input type="radio" class="btn-check" name="dificuldade" id="dificil" value="70">
+                    <label class="btn btn-outline-dif" for="facil">dificil</label>
+                    </div>
+                </div>
+
+                <a href="jogo.html" class="btn btn-jogar w-100 mb-3" id="btn-jogar">
+                    Jogar
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
